@@ -52,10 +52,9 @@ CREATE TABLE users (
 CREATE TABLE bus_reservation.admin (
   id INT NOT NULL AUTO_INCREMENT,
   name VARCHAR(45) NOT NULL,
-  username VARCHAR(50) NOT NULL,
+  username VARCHAR(50) unique NOT NULL,
   password VARCHAR(45) NOT NULL,
-  PRIMARY KEY (id),
-  UNIQUE INDEX username_UNIQUE (username ASC) VISIBLE);
+  PRIMARY KEY (id));
 
-Manually add a sample data to the admin table using mysqlworkbench.
+Manually add a sample data to the admin table using mysqlworkbench to access adminlogin page.
 
