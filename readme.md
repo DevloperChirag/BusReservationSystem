@@ -1,8 +1,9 @@
 Procedure for running the project
+Download the zip file from here.
 
 1.Install NetBeans Software in your System
 
-2.Extract all files from the zip folder 
+2.Extract all files from the zip folder .
 
 3. In the src folder Update existing root and password in the file DatabseConnection with root and password of your systems MySQL Workbench 
 
